@@ -1,4 +1,4 @@
-<h2>IBM-23121-1662607143</h2>
+<h1>IBM-23121-1662607143</h1>
 
 <h3>University Admit Eligibility Predictor</h3>
 
@@ -11,7 +11,10 @@
 
 <p>&nbsp; &nbsp; &nbsp; &nbsp;The motivation of this project is to help the students to save their time and money that they have to spend at the education consultancy firms. And also it will help them to limit their number of application to a small number by proving them the suggestion of the universities where they have the best chance of securing admission thus saving more money on the application fees. Choosing the right universities or colleges is definitely an hurdle students have to face. Many students apply for the universities in which they have little chance of acceptance. This leads students of poor economic backgrounds to frustration and anxiety as they only lose surplus amount of money just for applying to those universities.This system that could guide students and recommend best universities list and predict their admission chance in those universities according to their profile and scores.</p>
 
- 
+<h4>WORKFLOW</h4>
+<p><img src="C:\Users\dell\Desktop\IBM Project\Pre-development Phase\Ideation Phase\WORK FLOW.jpeg">
+</p>
+
 <h4>OBJECTIVE</h4>
 
 <p>&nbsp; &nbsp; &nbsp; &nbsp;The main objective of this project is to predict the chance of a student to be admitted to a master’s program. This will assist students to know in advance if they have a chance to get accepted in a particular college. This project web-based application in which students can register with their personal as well as marks details for prediction the admission in colleges and the administrator can allot the seats for the students. The main advantage of the project is the computerization of the entrance seat allotment process. Administrator has the power for the allotment. He can add the allotted seats into a file and the details are saved into the system. The total time for the entrance allotment became lesser and the allotment process became faster. It helps student for making decision for choosing a right college. Here the chance of occurrence of error is less when compared with the existing system. It is fast, efficient and reliable.</p>
