@@ -12,7 +12,7 @@
 <p>&nbsp; &nbsp; &nbsp; &nbsp;The motivation of this project is to help the students to save their time and money that they have to spend at the education consultancy firms. And also it will help them to limit their number of application to a small number by proving them the suggestion of the universities where they have the best chance of securing admission thus saving more money on the application fees. Choosing the right universities or colleges is definitely an hurdle students have to face. Many students apply for the universities in which they have little chance of acceptance. This leads students of poor economic backgrounds to frustration and anxiety as they only lose surplus amount of money just for applying to those universities.This system that could guide students and recommend best universities list and predict their admission chance in those universities according to their profile and scores.</p>
 
 <h4>WORKFLOW</h4>
-<p><img align="center" src="https://github.com/IBM-EPBL/IBM-Project-23121-1659867360/blob/main/Pre-development%20Phase/Ideation%20Phase/WORK%20FLOW.jpeg" alt="dharshini_0101" height="30" width="40" /></a>
+<p><img align="center" src="https://github.com/IBM-EPBL/IBM-Project-23121-1659867360/blob/main/Pre-development%20Phase/Ideation%20Phase/WORK%20FLOW.jpeg" alt="dharshini_0101" height="250" width="250" /></a>
 </p>
 
 <h4>OBJECTIVE</h4>
