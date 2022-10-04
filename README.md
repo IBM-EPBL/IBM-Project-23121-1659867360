@@ -23,7 +23,7 @@
 </ul>
 
 <i><h3>TECHNICAL ARCHITECTURE</h3></i>
-<p><img align="center" src="![image](https://user-images.githubusercontent.com/83385932/193859998-6767979d-2394-4617-becb-62dfce3fd3ec.png)" alt="UAEP"/></p>
+<p><img align="center" src="https://user-images.githubusercontent.com/83385932/193859998-6767979d-2394-4617-becb-62dfce3fd3ec.png" alt="UAEP"/></p>
 
 
 
