@@ -1,6 +1,6 @@
-<b><h1 align="center">IBM</h1><b>
+<b><h1 align="center">IBM</h1></b>
 
-<b><h2 align="center">University Admit Eligibility Predictor</h2><b>
+<b><h2 align="center">University Admit Eligibility Predictor</h2></b>
 
 <i><h3>ABSTRACT</h3></i>  
  
