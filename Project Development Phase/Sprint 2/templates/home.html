@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>HOME</title>
+      <link rel="stylesheet" href="home.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <nav>
+         <div class="logo" >
+            University Admit Eligibility Predictor
+         </div>
+         &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;&ensp;&ensp;
+         &ensp;&ensp;&ensp; &ensp;&ensp;&ensp;
+         <div class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">About</a></li>
+            <!-- <li><a href="#">Feedback</a></li> -->
+         </div>
+         
+      </nav>
+
+            <div class="dataset">
+              <form action="" method="post">
+                <fieldset>
+                  <p class="label">GRE Score:</p>
+                  <input type="text" id="gscore" name="GRE_Score">
+                
+                  <p class="label">TOEFEL Score:</p>
+                  <input type="number" id="tscore" name="TOEFEL_Score">
+               
+                  <p class="label">University Rating:</p>
+                  <input type="number" id="u_rate"       name="u_rate">
+                
+                  <p class="label">SOP:</p>
+                  <input type="number" id="sop"  name="sop">
+
+                  <p class="label">LOR:</p>
+                  <input type="number" id="lor"  name="lor">
+        
+                 <p class="label">CGPA:</p>
+                 <input type="number" id="cgpa"  name="cgpa">
+                  
+                  <p class="label">Research:</p>
+                  <input type="radio" id="yes" value="Yes" name="Research"><label class="light" for="yes">Yes</label>
+                  <input type="radio" id="no" value="No" name="Research"><label class="light" for="no">No</label><br>
+                 
+                  
+                 </fieldset>
+
+                
+                <input type="submit" class="button" value="Predict" onclick="window.location.href='result.html'">
+          
+               </form>
+                </div>
+              </div>
+      </div>
+
+   </body>
+</html>
