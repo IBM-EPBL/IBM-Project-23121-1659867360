@@ -1,11 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: url('/Project Development Phase/Sprint 1/static/background.jpg'); 
-    background-size:cover;
-    background-position:center;
-    font-family: sans-serif;
-}
+font-family: sans-serif;
 .button{
   background: #5E5DF0;
   border-radius: 999px;

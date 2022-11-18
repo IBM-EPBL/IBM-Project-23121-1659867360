@@ -2,6 +2,19 @@
 <!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
    <head>
+      <script>
+         window.watsonAssistantChatOptions = {
+           integrationID: "9082fac4-8e4e-40fc-81a5-583995b4d42d", // The ID of this integration.
+           region: "au-syd", // The region your integration is hosted in.
+           serviceInstanceID: "fb1ad98b-b087-4b31-95f2-b28590b850e4", // The ID of your service instance.
+           onLoad: function(instance) { instance.render(); }
+         };
+         setTimeout(function(){
+           const t=document.createElement('script');
+           t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+           document.head.appendChild(t);
+         });
+       </script>
       <meta charset="utf-8">
       <title>HOME</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +31,8 @@
          &ensp;&ensp;&ensp; &ensp;&ensp;&ensp;
          <div class="nav-items">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Chat</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/about">About</a></li>
          </div>
          
       </nav>
