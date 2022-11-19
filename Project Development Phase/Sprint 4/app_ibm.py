@@ -2,6 +2,7 @@ import flask
 from flask import request, render_template
 from flask_cors import CORS
 import requests
+from flask_mysqldb import MySQL
 
 # NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
 API_KEY = "JyhzzPTqYb5vdnL-g25mEurwEUgEHsrht4XjZo6UvyUm"
@@ -14,6 +15,34 @@ header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltok
 
 app = flask.Flask(__name__, static_url_path='')
 CORS(app)
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'contactdata'
+
+mysql = MySQL(app)
+
+@app.route('/redirect', methods=['POST'])
+def sendThanksPage():
+     firstName = request.form['firstname']
+     lastName = request.form['lastname']
+     phone = request.form['phone']
+     email = request.form['email']
+     message = request.form['message']
+     cursor = mysql.connection.cursor()
+     cursor.execute(''' INSERT INTO contactdata VALUES(%s,%s,%s,%s,%s)''',(firstName,lastName,phone,email,message))
+     mysql.connection.commit()
+     cursor.close()
+     return f"Thank You For Contacting Us "
+     
+@app.route('/about')
+def sendAboutPage():
+    return render_template('about.html')
+
+@app.route('/feedback')
+def sendFeedbackPage():
+    return render_template('index.html')
+
 @app.route('/', methods=['GET'])
 def sendHomePage():
     return render_template('home.html')
@@ -43,3 +72,4 @@ def predict():
 
 if __name__ == '__main__' :
     app.run(debug= False)
+  
